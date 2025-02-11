@@ -1,4 +1,4 @@
-Cat Photo App - FreeCodeCamp Responsive Web Design
+#Cat Photo App - FreeCodeCamp Responsive Web Design
 
 Overview
 
