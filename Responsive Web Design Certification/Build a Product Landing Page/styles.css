@@ -1,0 +1,156 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1, h2 {
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Header */
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+#header-img {
+    width: 50px;
+}
+
+#nav-bar {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link {
+    color: white;
+    font-size: 18px;
+}
+
+/* Hero Section */
+#hero {
+    margin-top: 80px;
+    padding: 50px;
+    background: #f4f4f4;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ff9900;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Features Section */
+#features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 0;
+}
+
+.feature {
+    background: #ddd;
+    padding: 20px;
+    width: 30%;
+    border-radius: 5px;
+}
+
+/* Video Section */
+#video-section {
+    padding: 40px 0;
+}
+
+#video {
+    width: 560px;
+    height: 315px;
+    border: none;
+}
+
+/* Pricing Section */
+#pricing {
+    background-color: #f0f0f0;
+    padding: 40px 0;
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.pricing-card {
+    background: white;
+    border: 1px solid black;
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.pricing-header {
+    background: #ddd;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.pricing-price {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.pricing-features {
+    list-style: none;
+    padding: 0;
+}
+
+.pricing-button {
+    background: gold;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.pricing-button:hover {
+    background: orange;
+}
+
+@media (max-width: 768px) {
+    #features {
+        flex-direction: column;
+    }
+
+    .feature {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #video {
+        width: 100%;
+        height: auto;
+    }
+
+    .pricing-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
